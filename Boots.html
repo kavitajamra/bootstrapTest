@@ -1,48 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Bootstrap Example</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-    	<!-- <DIV></DIV> -->
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+  <section>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 mt-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          </div>
+          <div class="col-sm-4 md-1 mt-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Follow on Twitter</a></li>
+              <li><a href="#" class="text-white">Like on Facebook</a></li>
+              <li><a href="#" class="text-white">Email me</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
-          </ul>
+      </div>
+    </div>  
+  </section>
+  <nav class="navbar navbar-dark bg-dark shadow-sm">
+    <a href="#" class="navbar-brand d-flex">
+      <i class="fas fa-camera" style="font-size: 24px;color:white;"></i>
+      <strong>Album</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  <section class="jumbotron text-center" style="background-color: white">
+    <div class="container fluid">
+      <h1>Album example</h1>
+      <p style="color: lightgray;font-size:20px;">Something short and leading about the collection below—its contents, <br>the creator, etc. Make it short and sweet, but not too short so folks don’t<br> simply skip over it entirely.</p>
+    </div>
+    <button type="button" class="btn btn-primary">Main call to action</button>
+    <button type="button" class="btn btn-dark">Secondary action</button>
+  </section>
+  <section class="jumbotron" style="background-color: lightgray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/i2.jpg">
+              <div class="card-body">
+                <h4 class="card-title">Fairytail</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/i2.jpg">
+              <div class="card-body">
+                <h4 class="card-title">Fairytail</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/i2.jpg">
+              <div class="card-body">
+                <h4 class="card-title">Fairytail</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/bgi.jpg">
+              <div class="card-body">
+                <h4 class="card-title">Kitten</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/bgi.jpg">
+              <div class="card-body">
+                <h4 class="card-title">kitten</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>  
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/bgi.jpg">
+              <div class="card-body">
+                <h4 class="card-title">Kitten</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>  
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/C.jpg">
+              <div class="card-body">
+                <h4 class="card-title">Horse</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/C.jpg">
+              <div class="card-body">
+                <h4 class="card-title">Horse</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="image/C.jpg">
+              <div class="card-body">
+                <h4 class="card-title">Horse</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-light btn-outline-dark">view</button>
+                  <button type="button" class="btn btn-light btn-outline-dark">Edit</button>
+                </div>
+              </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex">
-        <i class="fas fa-camera" style="font-size: 24px;color:white;"></i>
-        <strong>Album</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </nav>
-</header>
+  </section>    
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-sm-10">
+        <p> Album example is © Bootstrap, but please download and customize it for yourself!</p>
+        <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">getting started guide</a>.</p>
+      </div>
+      <div class="col-sm-2">
+        <a href="#">Back to top</a>
+      </div>
+    </div> 
+  </div>  
 </body>
 </html>
 
