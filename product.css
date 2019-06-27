@@ -1,0 +1,101 @@
+.Product{
+  overflow: hidden; 	
+	float:left;
+	margin-left: 630px;
+	position:absolute;
+	background-color: black;
+	margin-top: -270px;
+	width: 250px;
+	height: 500px;
+	border-radius: 21px;
+	transform: rotate(30deg);
+	margin-right: 116px;
+	padding:100px; 
+  }
+  .before{
+  	position: absolute;
+  	top: 10%;
+  	right: 10px;
+  	bottom:10%;
+  	left: 10px;
+  	background-color: #212529;
+  	border-radius: 5px;
+  }
+  .productshadow{
+  	top: -25%;
+  	right: auto;
+  	left: 2%;
+  	width: 250px;
+  	height: 430px;
+  	position: absolute;
+  	border-radius: 24px;
+  	transform: rotate(30deg);
+  	background-color: #e5e5e5;
+  	margin-top: 4px;
+  	margin-left: 38px;
+  }
+  .beforeshadow{
+  	position: absolute;
+  	top: 10%;
+  	right: 10px;
+  	bottom:10%;
+  	left: 10px;
+  	background-color:rgba(255, 255, 255, .1);
+  	border-radius: 5px;
+  }
+  .b{
+  margin-left: 34px;
+  width: 500px;
+  text-align: center;
+  }
+  .b1{
+  margin-left: 30px;
+  width: 500px;
+  text-align: center;
+  }	
+  .box{
+  	margin-top:46px; 
+  	border-top-right-radius:25px;
+  	border-top-left-radius:25px;
+  	border-bottom-right-radius:0px;
+  	border-bottom-left-radius:0px;
+  	height:300px;
+    margin-left:75px;
+  	margin-right:75px;
+  }
+  .b2{
+  margin-left: 30px;
+  width: 500px;
+  text-align: center;
+  margin-top: 10px;
+  }	
+  .box1{
+  	margin-top:46px; 
+  	border-top-right-radius:25px;
+  	border-top-left-radius:25px;
+  	border-bottom-right-radius:0px;
+  	border-bottom-left-radius:0px;
+  	height:300px;
+    margin-left:75px;
+  	margin-right:75px;
+  }
+  .box2{
+  	margin-top:46px; 
+  	border-top-right-radius:25px;
+  	border-top-left-radius:25px;
+  	border-bottom-right-radius:0px;
+  	border-bottom-left-radius:0px;
+  	height:300px;
+    margin-left:75px;
+  	margin-right:75px;
+  }
+  .box3{
+  	margin-top:46px; 
+  	border-top-right-radius:25px;
+  	border-top-left-radius:25px;
+  	border-bottom-right-radius:0px;
+  	border-bottom-left-radius:0px;
+  	height:300px;
+    margin-left:75px;
+  	margin-right:75px;
+  }
